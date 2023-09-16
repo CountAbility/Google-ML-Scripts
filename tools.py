@@ -45,5 +45,5 @@ def localize_objects_uri(uri):
         for vertex in object_.bounding_poly.normalized_vertices:
             print(f" - ({vertex.x}, {vertex.y})")
 
-var = localize_objects_uri("https://media.istockphoto.com/id/81712254/photo/surgical-equipment.jpg?s=612x612&w=0&k=20&c=qHNK3Qu_2SyWyyoFUCI4tlEcYZ_RnZqyO6ceAT3HXeA=")
+var = localize_objects("/Users/malcolmkrolick/Documents/GitHub/Google-ML-Scripts/Photo on 9-16-23 at 3.41 AM.jpg")
 print(var)
